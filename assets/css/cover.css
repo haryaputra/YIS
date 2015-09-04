@@ -141,14 +141,23 @@ body{
     padding-right: 0px;
   }
 }
-.cover .navbar {
-  width: 100%;
-  border: none;
-  background-color: transparent;
-}
+@media (min-width: 768px){
+  .cover .navbar {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+  }
 
+  .cover .navbar-default .navbar-nav > li > a {
+    color: white;
+  }
+}
 .cover .navbar.scroll {
   background-color: white;
+}
+
+.cover .navbar.scroll li > a{
+  color:black;
 }
 
 .cover .navbar .navbar-toggle:hover,
