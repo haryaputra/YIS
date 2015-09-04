@@ -1,3 +1,11 @@
+#particles-js {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
 @font-face {
   font-family: 'Neighbourhood';
   src: url('Neighbourhood.otf') format('opentype'); /* IE no comprende format()! */
