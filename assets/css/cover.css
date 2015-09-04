@@ -55,6 +55,14 @@ body{
   opacity: 0.5;
   color: white;
 }
+.section-second {
+  background-color: #F3BB45 !important;
+  color: #ffffff;
+}
+.section-second .background-image {
+  opacity: 0.5;
+  color: white;
+}
 .section-info {
   background-color: #1994da !important;
   color: #ffffff;
