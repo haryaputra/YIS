@@ -7,6 +7,10 @@
   <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/ct-paper.css" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/cover.css" media="screen" title="no title" charset="utf-8">
+  <!-- Attach Reveal CSS -->
+  <link rel="stylesheet" href="reveal.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+  <script type="text/javascript" src="jquery.reveal.js"></script>
 
   <!--     Fonts and icons     -->
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -76,7 +80,7 @@
           <h3 class="text-inverse" style="color : white">STUDIUM GENERALE ITB</h3>
           <br>
           <br>
-          <a class="btn btn-fill btn-lg btn-success" href="registration.html">REGISTER</a>
+          <a class="btn btn-fill btn-lg btn-success" href="#" data-reveal-id="myModal" data-animation="fade">REGISTER</a>
         </div>
       </div>
     </div>
@@ -170,6 +174,12 @@
       </div>
     </div>
   </footer>
+
+  <div id="myModal" class="reveal-modal">
+      <h1>Reveal Modal Goodness</h1>
+      <p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
+      <a class="close-reveal-modal">&#215;</a>
+  </div>
 
   <script>
 
